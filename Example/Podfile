@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNLiveQQEmotionManager_Example' do
+  pod 'CNLiveQQEmotionManager', :path => '../'
+
+   pod 'QMUIKit'
+  target 'CNLiveQQEmotionManager_Tests' do
+    inherit! :search_paths
+  pod 'QMUIKit'
+
+    
+  end
+end

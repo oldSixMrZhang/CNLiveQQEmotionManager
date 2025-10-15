@@ -1,0 +1,6 @@
+framework module CNLiveQQEmotionManager {
+  umbrella header "CNLiveQQEmotionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

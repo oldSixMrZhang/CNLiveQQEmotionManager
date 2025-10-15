@@ -1,0 +1,36 @@
+{
+  "name": "CNLiveQQEmotionManager",
+  "version": "0.0.1",
+  "summary": "自定义表情组件化",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://bj.gitlab.cnlive.com/ios-team/CNLiveQQEmotionManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "殷巧娟": "1427945373@qq.com"
+  },
+  "source": {
+    "git": "http://bj.gitlab.cnlive.com/ios-team/CNLiveQQEmotionManager.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CNLiveQQEmotionManager/Classes/**/*",
+  "resource_bundles": {
+    "CNLiveQQEmotionManager": [
+      "CNLiveQQEmotionManager/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "QMUIKit": [
+
+    ]
+  }
+}
